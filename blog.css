@@ -55,6 +55,7 @@ main, footer{
 time, h1, h2{
     color: #2d324f;
 }
+
 @media screen and (min-width: 600px) {
     .artigos { 
         max-width:56rem;
@@ -93,6 +94,11 @@ time, h1, h2{
     align-content: end;
     justify-content: end;
     display: flex;
+}
+
+.modal:hover{
+   size: ;
+
 }
 
 .final{
