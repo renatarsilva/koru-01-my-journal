@@ -47,6 +47,9 @@ font-size: larger;
     border-radius: 15px;
     margin-bottom: 10px;
 }
+.button-contact:hover{
+    text-size-adjust: 20px;
+}
 
 .hero {
     background: #efd9ee;
