@@ -74,6 +74,10 @@ time, h1, h2{
     background-color: white;
     border-radius: 20px;
 }
+.modal:hover{
+    transform:scale(1.05);
+
+}
 
 .modal h2 {
     align-items: center;
