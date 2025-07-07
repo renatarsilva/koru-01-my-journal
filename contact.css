@@ -42,13 +42,16 @@ font-size: larger;
 .button-contact {
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    color: #2d324f;
-    background: #c8a2c7;
+    color: #efd9ee;
+    background: #2d324f;
     border-radius: 15px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
-.button-contact:hover{
-    text-size-adjust: 20px;
+
+.button-contact:hover {
+    background-color: #c8a2c7;
+    color:#2d324f;
 }
 
 .hero {
