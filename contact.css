@@ -40,17 +40,12 @@ font-size: larger;
 }
 
 .button-contact {
-    padding: 1rem 3rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
-    color: #efd9ee;
+    color: #2d324f;
     background: #c8a2c7;
-    cursor:pointer;
-    border-radius: 90px;
-    margin-bottom: 6px;
-}
-
-.button-contact:hover{
-    font-size: 2rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .hero {
