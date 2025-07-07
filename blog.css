@@ -1,0 +1,101 @@
+.logo{
+    color:#2d324f;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.logo:hover {
+    font-size: 2rem;
+}
+
+nav{
+    height: 80px;
+    background: #efd9ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) /2);
+}
+
+nav a {
+    text-decoration: none;
+    color: #2d324f;
+    padding: 0 1.5rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: bold; 
+}
+
+nav a:hover{
+font-size: larger;
+}
+
+.head{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+main, footer{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.artigos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    padding: 20px;
+}
+
+time, h1, h2{
+    color: #2d324f;
+}
+@media screen and (min-width: 600px) {
+    .artigos { 
+        max-width:56rem;
+        margin: 0 auto;
+    }
+}
+
+.hero-blog {
+    background: #efd9ee;
+}
+
+.modal{
+    border: 2px solid #2d324f;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.modal h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.modal button {
+    color: #efd9ee;
+    background: #2d324f;
+    cursor:pointer;
+    border-radius: 50px;
+}
+
+.modal div{
+    width: 100%;
+    align-content: end;
+    justify-content: end;
+    display: flex;
+}
+
+.final{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    color:#2d324f;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.logo:hover {
+    font-size: 2rem;
+}
+
+nav{
+    height: 80px;
+    background: #efd9ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) /2);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: bold;  
+}
+
+nav a {
+    text-decoration: none;
+    color: #2d324f;
+    padding: 0 1.5rem;
+}
+
+nav a:hover{
+font-size: larger;
+}
+
+main, footer{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hero {
+    background: #efd9ee;
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem calc((110vw - 1300px) /2);
+}
+
+.column-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #2d324f;
+    padding: 0rem 2rem;
+}
+
+.column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.column-left p {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.button-blog {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #efd9ee;
+    background: #2d324f;
+    cursor:pointer;
+    border-radius: 50px;
+}
+
+.column-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+
+.hero-image{
+    width: 390px;
+    height: 700px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container {
+        grid-template-columns:  1fr;
+    }
+}
+
+.texto{
+    font-size: 3px;
+}
+
+.final{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
